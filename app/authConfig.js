@@ -5,9 +5,10 @@
  */
 const msalConfig = {
     auth: {
-        clientId: "Enter_the_Application_Id_Here",
-        authority: "Enter_the_Cloud_Instance_Id_HereEnter_the_Tenant_Info_Here",
-        redirectUri: "Enter_the_Redirect_Uri_Here",
+        clientId: "32a57c0a-2f0a-4942-8093-bc8b906f025f",
+        authority: "https://login.microsoftonline.com/common",
+        redirectUri: "http://localhost:3000",
+     
     },
     cache: {
         cacheLocation: "sessionStorage", // This configures where your cache will be stored
